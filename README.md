@@ -1,11 +1,11 @@
 # go-rpc-gateway
 基于Go语言的RPC+HTTP+Gateway+Swagger
 
-![](http://github.com/spider1998/go-rpc-gateway/img/grpc-icon.png)
+![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc-icon.png)
 
 grpc-gateway是protoc的一个插件 。它读取Grpc服务定义，并生成反向代理服务器，将RESTful JSON API请求转换为Grpc的方式调用。主要是根据 google.api.http定义中思想完成的，以下为grpc-gateway结构图： ￼ 
 
-![](http://github.com/spider1998/go-rpc-gateway/img/grpc1.png)
+![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc1.png)
 
 一、环境准备
 --
@@ -68,12 +68,12 @@ swagger 配置：
 
 --访问路径https://127.0.0.1:50052/api/ 查看内容
 
-   ![](http://github.com/spider1998/go-rpc-gateway/img/grpc2.png)
+   ![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc2.png)
 
 
 --postman 测试http服务是否正常
 
-   ![](http://github.com/spider1998/go-rpc-gateway/img/grpc3.png)
+   ![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc3.png)
    
 --运行person/client 下的main.go测试grpc之间调用
 
