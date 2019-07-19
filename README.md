@@ -1,6 +1,9 @@
 # go-rpc-gateway
 基于Go语言的RPC+HTTP+Gateway+Swagger
 
+##实现功能：通过grpc+gateway+swagger搭建微服务（GO+rpc+gateway+swagger+mysql+log+redis...），示例对外同时兼容HTTP与RPC接口(以  创建人员为例)，服务可在此之上扩展开发##
+--
+
 ![](http://pic.w-blog.cn/800FD94A-504B-4AA1-9992-C98962E84287.png)
 
 grpc-gateway是protoc的一个插件 。它读取Grpc服务定义，并生成反向代理服务器，将RESTful JSON API请求转换为Grpc的方式调用。主要是根据 google.api.http定义中思想完成的，以下为grpc-gateway结构图： ￼ 
