@@ -6,7 +6,7 @@
 
 ![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc1.png)
 
-···grpc-gateway是protoc的一个插件 。它读取Grpc服务定义，并生成反向代理服务器，将RESTful JSON API请求转换为Grpc的方式调用。主要是根据 google.api.http定义中思想完成的，以下为grpc-gateway结构图： ￼ 
+···grpc-gateway是protoc的一个插件 。它读取Grpc服务定义，并生成反向代理服务器，将RESTful JSON API请求转换为Grpc的方式调用。主要是根据 google.api.http定义中思想完成的，以上为grpc-gateway结构图： ￼ 
 
 ![](https://github.com/spider1998/go-rpc-gateway/blob/master/img/grpc-icon.png)
 
