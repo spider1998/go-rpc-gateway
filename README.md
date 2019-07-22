@@ -27,6 +27,7 @@
   sudo make install
 }
 ```
+//安装gateway及相关组件 
 
 ·go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
 
@@ -35,6 +36,8 @@
 ·go get -u github.com/golang/protobuf/protoc-gen-go
 
 ·go get -u google.golang.org/grpc
+
+//安装第三方辅助插件
 
 ·go get github.com/elazarl/go-bindata-assetfs/...   （使用go-bindata所生成Swagger UI的Go代码，结合net/http对外提供服务）
 ```
