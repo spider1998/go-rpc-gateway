@@ -61,7 +61,7 @@ swagger 配置：
 
 
 
-二、代码运行
+二、代码运行（源码包含所有已生成文件）
 --
 
 --github上拉取Google官方api放入person/pkg/proto/目录  https://github.com/googleapis/googleapis 将google文件夹中需要的文件拷贝至     proto目录
