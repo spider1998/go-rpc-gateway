@@ -1,4 +1,4 @@
-# go-rpc-gateway
+# go-rpc-gateway（测试通过）
 基于Go语言的RPC+HTTP+Gateway+Swagger
 
 ##实现功能：通过grpc+gateway+swagger搭建微服务（GO+rpc+http+gateway+swagger+mysql+log+redis...），示例对外同时兼容HTTP与RPC接口(以  创建人员为例)，服务可在此之上扩展开发##
